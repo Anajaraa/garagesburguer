@@ -1,0 +1,138 @@
+https://dontpad.com/ferramentTests
+
+TESTES:
+Ferramentas Populares para Testes Front-End
+
+Jest: Uma estrutura de testes JavaScript amplamente usada para testes unitários e de integração. Integra-se bem com bibliotecas como React.
+
+//Teste Unitário com Jest//
+
+// Função simples de soma
+function soma(a, b) {
+  return a + b;
+}
+
+// Teste unitário para a função de soma
+test('soma 1 + 2 para ser igual a 3', () => {
+  expect(soma(1, 2)).toBe(3);
+});
+
+
+Cypress: Uma ferramenta poderosa para testes end-to-end, que permite escrever testes rápidos e confiáveis.
+
+//Teste End-to-End com Cypress//
+
+// Teste de login com Cypress
+describe('Teste de Login', () => {
+  it('deve permitir que um usuário faça login', () => {
+    cy.visit('/login');
+    cy.get('input[name=username]').type('meu_usuario');
+    cy.get('input[name=password]').type('minha_senha');
+    cy.get('button[type=submit]').click();
+    cy.url().should('include', '/dashboard');
+  });
+});
+
+
+Selenium: Uma ferramenta de automação para testar aplicações web através de navegadores.
+
+
+Puppeteer: Oferece uma API para controlar o navegador Chrome, ideal para testes end-to-end e captura de telas.
+Storybook: Uma ferramenta de desenvolvimento de UI que também pode ser usada para testar componentes de forma isolada.
+Lighthouse: Uma ferramenta automatizada para melhorar a qualidade das páginas web, abrangendo desempenho, acessibilidade, e SEO.
+
+###################################################
+layot de texto:
+
+text-align - justify
+line-height - grossura da linha 
+letter-spacing espaçamento da letra
+word-spacing espaçamento da palavra
+
+Representação de cores:
+
+RGB - rgb(192 226 90)
+HEX - #c0e25a
+HSL - hsl(75 70.1% 62%)
+HWB - hwb(75 35.4% 11.4%)
+
+
+Unidades de Comprimento:
+
+cm - Centrimetros = 1cm = 37.8px = 25.2  64pol
+
+mm - Milimetros = 1mm = 1/10 de 1cm
+
+Q - Quarter-milimeters 1Q= 1/40 de 1cm
+
+in - Inches 1pol = 2.54cm = 96px
+
+pt - Point 1pt = 1/72 de 1 pol
+
+1px - Pixel 1px = 1/96 de 1pol
+
+
+Unidade Relativas:
+em - tamanho da fonte no elemento pai  
+rem - tamanho da fonte do elemento raiz (html)
+vw - 1% da largura da tela
+vh - 1% da altura da tela 
+Exemplo: img{
+    width: 10em;
+    height: 10rem;
+}
+
+
+
+
+EXEMPLO:
+
+html{
+    font-size: 18px;
+}
+
+div{
+    font-size: 24px;
+}
+
+img{
+    width: 10em; /* equivalente a 240px (24*10) a largura pois multiplica ao elemento div */
+    height: 10rem; /* equivale a 180px porque é 18*10 porque multiplica o elemento pai (html) */
+}
+:root{
+    --primary-color: #3498db /* azul */
+    --secondary-colir: #2ecc71 /* verde */
+    --accent-color: #e74c3c /* laranja */
+    -- background-color: #ecf0f1 
+    --text-color: #2c3e50 
+}
+
+color: var (--secondary-color);
+
+#####################################################################################
+<table border="1">
+            <tr>
+                <th><img src= alt></th>
+                <td> Saladas</td>
+            </tr>
+            <tr>
+                <th><img src= alt></th>
+                <td>Pizzas</td>
+            </tr>
+            <tr>
+                <th><img src= alt=</th>
+                <td>Refrigerantes.</td>
+            </tr>
+            <tr>
+                <th><img src= alt=</th>
+                <td>Doces</td>
+            </tr>
+            <tr>
+                <th><img src= alt=></th>
+                <td>Sucos</td>
+            </tr>
+            
+            
+               
+         </table>
+        

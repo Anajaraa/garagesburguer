@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo gelo */
+    color: #333; /* Cor do texto */
+    padding: 20px;
+    line-height: 1.6; 
+    /* line-height altura de cada linha dobro da altura da fonte
+    letter-spacing: espaçamento de letras
+    em px
+    word-spacing: espaço entre as palavras */
+    
+}
+
+header {
+    background-color: #c34a36;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family:"Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+
+    
+    /* margin-top: 20%; */
+
+  
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+nav button {
+    background-color: #c34a36;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+nav button:hover {
+    background-color: #c34a36;
+    
+}
+
+main {
+    padding: 20px;
+    
+/* 
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+
+p {
+    color: #555; /* Cor do texto em um tom de cinza */
+    font-size: 1em;
+    margin-bottom: 15px;
+
+    
+    
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+
+
+
+
+aside {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-left: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    text-align:  center;
+    align-items: center;
+    
+    background-color: #c34a36;
+    letter-spacing:4px;
+}
+
+h3{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* margin-bottom: 10px;
+    border-bottom: 2px solid #ccc; */
+
+    /* img{
+        width:100px ;
+        height:90px ;
+        */
+
+    
+    
+    h5{
+        text-align: center;
+    }
+
+    .card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .card img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    .card h2 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    
+    .card p {
+        font-size: 1em;
+        color: #555;
+    }
+    
+    .more-options {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        padding: 20px;
+        max-width: 37.5rem;
+        text-align: center;
+    }
+    
+    .more-options h2 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    
+    .more-options ul {
+        list-style-type: none;
+    }
+    
+    .more-options ul li {
+        font-size: 1em;
+        color: #333;
+        margin: 5px 0;
+    }
+    
+    section .cardes  {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+        .menu {
+            width: 50px; /* Ajuste a largura conforme necessário */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            border-radius: 5px;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+    
+        #social{
+            display: flex;
+            justify-content: center;
+        }
+
+        #forme{
+            display: flex;
+            justify-content: center;
+           
+        }
+
+        .enviar{
+            background-color: #c34a36;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        aside > h6  {
+            
+            font-size: larger;
+        }
+
+        h6{
+            text-align: center;
+        }
+
+        
+
+        .horizontal-sidebar {
+            width: 100%;
+            background-color: #c34a36;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .horizontal-sidebar h6 {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .horizontal-sidebar p {
+            text-align: justify;
+            width: 100%;
+        }
+        
+        .aside-image {
+            margin-top: 20px;
+            border-radius: 5px;
+            max-width: 100%;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+        }
+
+        a:active{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: none;
+        }
+
+        .fade-in {
+            opacity: 0; /* Começa invisível */
+            animation: fadeInAnimation 3s forwards; /* Aplica a animação de fade-in */
+        }
+        
+        /* Define a animação de fade-in */
+        @keyframes fadeInAnimation {
+            to {
+                opacity: 1; /* Torna o texto totalmente visível */
+            }
+        }
+        
